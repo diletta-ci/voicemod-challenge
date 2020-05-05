@@ -1,0 +1,19 @@
+@import './partials/reset';
+@import './partials/typography';
+@import './partials/vars';
+
+body {
+    margin: 0;
+    background-color: $background-primary;
+}
+
+.app {
+    color: white;
+    padding: 10px 0;
+
+    input {
+        outline: none;
+        border: none;
+        color: white;
+    }
+}
